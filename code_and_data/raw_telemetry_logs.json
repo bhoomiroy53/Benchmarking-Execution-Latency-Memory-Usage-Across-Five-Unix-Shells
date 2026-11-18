@@ -1,0 +1,92 @@
+{
+  "description": "Raw telemetry produced on Ubuntu 26.04.1 LTS (WSL2) by run_unix_shell_benchmark.py",
+  "timeline_utc_2026_11_13": {
+    "evaluation_segment_1": "about 07:04 to 07:14:19 (harness restart interrupted seed 101)",
+    "development_partition_parallel": "07:14:19 to about 07:27 (four shards, non-timed use only)",
+    "interpreter_hwm_pass": "07:14:19 to about 07:27 (ptrace exit stop)",
+    "evaluation_segment_2": "07:42:52 to 08:12:35 (resumed, same binaries, order preserved)",
+    "strace_and_gnu_time": "08:12:37 to 08:22:19"
+  },
+  "files": {
+    "environment_versions.json": {
+      "bytes": 10019,
+      "sha256": "9d53cc3f35552d20050f0da244b99062cd44861b1a4865a066fe703ea7743246",
+      "rows": null
+    },
+    "interpreter_hwm.csv": {
+      "bytes": 184453,
+      "sha256": "43ff7b307410cc96cf8baa5994fdbf87a7420a46195cbf5049754e922cbc92a7",
+      "rows": 6000
+    },
+    "manifest.json": {
+      "bytes": 593842,
+      "sha256": "72bf773100dbbdb5bf2417307a7392fca982a3c407fefc9c7c8571495786b245",
+      "rows": null
+    },
+    "raw_runs.csv": {
+      "bytes": 5989815,
+      "sha256": "ac6b3c421e56751b40e6db42013944969825f66704d7de1784059d09f4ce9d87",
+      "rows": 50000
+    },
+    "raw_runs_dev_shard0.csv": {
+      "bytes": 1174035,
+      "sha256": "33a6788a3824fa4f21171088e6b41303a19a252a2ea7979fcdd24c7f0dc81266",
+      "rows": 10000
+    },
+    "raw_runs_dev_shard1.csv": {
+      "bytes": 1181826,
+      "sha256": "0d477bf7a2594c46ace34242bffe0548ab9c9c0b37a88d88ac56f6f359bd30ca",
+      "rows": 10000
+    },
+    "raw_runs_dev_shard2.csv": {
+      "bytes": 1188436,
+      "sha256": "c685a5a138eb497cd3f3baf232248c3d2fb5719882ec026c370fbe26b95d6139",
+      "rows": 10000
+    },
+    "raw_runs_dev_shard3.csv": {
+      "bytes": 1210935,
+      "sha256": "e7730cd5c22fc0008bfc4ab003b874a811afa25747aba23b3a3050d5d3913880",
+      "rows": 10000
+    },
+    "startup_hwm.csv": {
+      "bytes": 3936,
+      "sha256": "8c21a47eec3bf21e3e6a903b9e94d978ea3409c05a6f3ebeecb1aff27a8f1130",
+      "rows": 250
+    },
+    "startup_runs.csv": {
+      "bytes": 40504,
+      "sha256": "aeae7889607a166dcfa1002d299dcf57f7ddc9bd5a50cbecd5c97612e6b78c95",
+      "rows": 1000
+    },
+    "strace_counts_bash.csv": {
+      "bytes": 3920,
+      "sha256": "ef8d4c63c8288541a84a6c0e147c7084860104e5997e47302b61477f61e710b7",
+      "rows": 160
+    },
+    "strace_counts_dash.csv": {
+      "bytes": 3920,
+      "sha256": "fc5c9c2c741de4253fa44e6bc21db92bc1dc3a737f6809abb43f380f3d6fa743",
+      "rows": 160
+    },
+    "strace_counts_fish.csv": {
+      "bytes": 3904,
+      "sha256": "f521ec83d59fde63a2db8af2e19869d7e45f06fc8362292d5f7a918016087cb1",
+      "rows": 160
+    },
+    "strace_counts_ksh.csv": {
+      "bytes": 3792,
+      "sha256": "c511bb3cc03c21d6296ae7e58bee41690826787ef13e0569d001353eb8edaf1b",
+      "rows": 160
+    },
+    "strace_counts_zsh.csv": {
+      "bytes": 3760,
+      "sha256": "6fef024af5d5497dfb456794642185fe91fe299611fd2996d8e184c34b5ef3e2",
+      "rows": 160
+    },
+    "timecheck.csv": {
+      "bytes": 1007,
+      "sha256": "718b30d684d81be88ce3a1ca6464fcc160758b755e4b8378077114a095bf03a9",
+      "rows": 50
+    }
+  }
+}

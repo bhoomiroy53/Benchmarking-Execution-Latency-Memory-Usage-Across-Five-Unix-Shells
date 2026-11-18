@@ -1,0 +1,17 @@
+Workload suite,Task class,Injection mechanism,Development tasks (n),Evaluation tasks (n)
+Suite 1,Fault-free,No fault,600,150
+Suite 1,Missing input,Input path does not exist,67,17
+Suite 1,Unreadable input,Input file mode 000,67,17
+Suite 1,Corrupt record,Letter inserted in one size field,67,17
+Suite 1,Helper exit,Helper exits with status 3,67,17
+Suite 1,Signal term,SIGTERM sent to interpreter,66,16
+Suite 1,Write failure,Output written to /dev/full,66,16
+Suite 1,Total,All classes,1000,250
+Suite 2,Fault-free,No fault,600,150
+Suite 2,Missing root,Input root does not exist,67,17
+Suite 2,Unreadable subdir,One subtree mode 000,67,17
+Suite 2,Helper exit,Helper exits with status 3,67,17
+Suite 2,Signal term,SIGTERM sent to interpreter,67,17
+Suite 2,Write failure,Output written to /dev/full,66,16
+Suite 2,Consumer failure,"Sink closes input, exits 1",66,16
+Suite 2,Total,All classes,1000,250

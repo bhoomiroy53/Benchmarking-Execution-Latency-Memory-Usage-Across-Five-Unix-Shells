@@ -1,0 +1,191 @@
+{
+  "captured_utc": "2026-11-13T07:03:27Z",
+  "kernel_release": "6.18.58.1-microsoft-standard-WSL2",
+  "uname_a": "Linux LAPTOP-QT55S5AK 6.18.58.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct 27 00:24:11 UTC 2026 x86_64 GNU/Linux",
+  "os_release": "Ubuntu 26.04.1 LTS",
+  "wsl": true,
+  "cpu_model": "AMD Ryzen 5 8645HS w/ Radeon 760M Graphics",
+  "cpu_mhz_reported": "4291.966",
+  "cpu_cache": "1024 KB",
+  "cpu_hypervisor_flag": true,
+  "logical_cpus": 12,
+  "mem_total": "7736084 kB",
+  "lscpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  12\nOn-line CPU(s) list:                     0-11\nVendor ID:                               AuthenticAMD\nModel name:                              AMD Ryzen 5 8645HS w/ Radeon 760M Graphics\nCPU family:                              25\nModel:                                   117\nThread(s) per core:                      2\nCore(s) per socket:                      6\nSocket(s):                               1\nStepping:                                2\nBogoMIPS:                                8583.93\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx512_bf16 clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm\nVirtualization:                          AMD-V\nHypervisor vendor:                       Microsoft\nVirtualization type:                     full\nL1d cache:                               192 KiB (6 instances)\nL1i cache:                               192 KiB (6 instances)\nL2 cache:                                6 MiB (6 instances)\nL3 cache:                                16 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-11\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Mitigation; Clear CPU buffers\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected",
+  "python": "3.14.4",
+  "coreutils": "cut (uutils coreutils) 0.8.0",
+  "grep": "grep (GNU grep) 3.12",
+  "findutils": "find (GNU findutils) 4.10.0",
+  "awk": "/usr/bin/gawk | GNU Awk 5.3.2, API 4.0, PMA Avon 8-g1, (GNU MPFR 4.2.2, GNU MP 6.3.0)",
+  "strace": "strace -- version 6.19",
+  "gnu_time": "time (GNU Time) UNKNOWN",
+  "workdir": "/home/bapan/cjcs_bench",
+  "workdir_filesystem": "ext2/ext3",
+  "running_as_root": false,
+  "shells": {
+    "bash": {
+      "invocation": "/usr/bin/bash",
+      "binary": "/usr/bin/bash",
+      "version_string": "GNU bash, version 5.3.9(1)-release (x86_64-pc-linux-gnu)",
+      "package": "bash",
+      "package_version": "5.3-2ubuntu1",
+      "sha256": "3efccc187bafa75ff1e37d246270ab3e7aa559f242c7a52bf3ec2a1b5450bdbd",
+      "size_bytes": 1540520,
+      "dialect": "posix"
+    },
+    "dash": {
+      "invocation": "/usr/bin/dash",
+      "binary": "/usr/bin/dash",
+      "version_string": "0.5.12-12ubuntu3",
+      "package": "dash",
+      "package_version": "0.5.12-12ubuntu3",
+      "sha256": "c626229526bb58ec2d0f585f3c3ae1412e6f973b4353385042d11c38d8426917",
+      "size_bytes": 129856,
+      "dialect": "posix"
+    },
+    "zsh": {
+      "invocation": "/usr/bin/zsh -f",
+      "binary": "/usr/bin/zsh",
+      "version_string": "zsh 5.9 (x86_64-ubuntu-linux-gnu)",
+      "package": "zsh",
+      "package_version": "5.9-8ubuntu3",
+      "sha256": "637a462eb24d87b452db3045c4e053b2a0ee03f7fc1ea6d351241c23f64625c7",
+      "size_bytes": 976416,
+      "dialect": "posix"
+    },
+    "ksh": {
+      "invocation": "/usr/bin/ksh93",
+      "binary": "/usr/bin/ksh93",
+      "version_string": "Version AJM 93u+m/1.0.10 2024-08-01",
+      "package": "ksh93u+m",
+      "package_version": "1.0.10-2build1",
+      "sha256": "e69f3f78f14fa37b0148238540bdf329df5a8c1569a726e53d155673618a669b",
+      "size_bytes": 1473360,
+      "dialect": "posix"
+    },
+    "fish": {
+      "invocation": "/usr/bin/fish --no-config",
+      "binary": "/usr/bin/fish",
+      "version_string": "fish, version 4.2.1",
+      "package": "fish",
+      "package_version": "4.2.1-3.2",
+      "sha256": "48bfac9823b58837af887691638e74c7a7f4186d884bfb5ab6d3fa1001fb9387",
+      "size_bytes": 13706816,
+      "dialect": "fish"
+    }
+  },
+  "workload_scripts": {
+    "awk/w1_batch.awk": {
+      "sha256": "47c8d11deb958b2bce51a9cc4becca37b6c879bc815f04d45612a95f127e6e06",
+      "lines": 16,
+      "bytes": 873
+    },
+    "awk/w2_batch.awk": {
+      "sha256": "486c3060384dbd66f357de873e2b0bd48e021239edabdf3b9dd57bc3802f8323",
+      "lines": 20,
+      "bytes": 762
+    },
+    "fish/w1_A_external.fish": {
+      "sha256": "2c04ab6f4c032af01e9f68cf39fa5d73c884ac9d0c28a099b11de02deb32ae5d",
+      "lines": 26,
+      "bytes": 1490
+    },
+    "fish/w1_B_builtin.fish": {
+      "sha256": "78e19a24b67a1e88bd95b709f192cd31b76c10a416932e60b97c2428cd0a545d",
+      "lines": 45,
+      "bytes": 1705
+    },
+    "fish/w1_C_concurrent.fish": {
+      "sha256": "a7738acb214f0134cec715f39338908270d67fe1e60389d3cf181d04aa5773da",
+      "lines": 32,
+      "bytes": 1528
+    },
+    "fish/w1_D_trapped.fish": {
+      "sha256": "65c0ce8a5dd2fba95c4de6b0879f84df13c6b415a16b3c9637b1ed510cdf6e5f",
+      "lines": 79,
+      "bytes": 2752
+    },
+    "fish/w2_A_external.fish": {
+      "sha256": "de0212013ce65df5416ec88159519523c918f0b1835734460635794f44a63d73",
+      "lines": 27,
+      "bytes": 1173
+    },
+    "fish/w2_B_builtin.fish": {
+      "sha256": "08bb73f88fd51e2e4a604eb27bdfbc2f91660a5e1764315b8339a0789c722421",
+      "lines": 49,
+      "bytes": 1780
+    },
+    "fish/w2_C_concurrent.fish": {
+      "sha256": "1e5fd965fdbc904a1a66a99938c3b01d2655def5d7daa1424c624be280daf726",
+      "lines": 38,
+      "bytes": 1586
+    },
+    "fish/w2_D_trapped.fish": {
+      "sha256": "1b381ae713f43676f81cfca2389b837bca7674aa8fb46fb69375f77b15fa0ebe",
+      "lines": 82,
+      "bytes": 2790
+    },
+    "fish_signal_exit_reproducer.fish": {
+      "sha256": "d108145da5ce65f3cbef2ba7e9939bdc665413ae691295cb0faa62e967d02321",
+      "lines": 9,
+      "bytes": 185
+    },
+    "helpers/audit.sh": {
+      "sha256": "d1ed3867ba258dd7529d45c8088436467d097a04605119ad3c8b03d9eac76912",
+      "lines": 26,
+      "bytes": 868
+    },
+    "helpers/logsrc.sh": {
+      "sha256": "00cc42939e7a3cd07befecf1a8aa3b441becde35f9e7fd50fdc12dc272734a07",
+      "lines": 26,
+      "bytes": 961
+    },
+    "helpers/sink.sh": {
+      "sha256": "4aeb00278c46227477fd5da76fe9b7c2367935742777ae53937e15f8f240f02d",
+      "lines": 12,
+      "bytes": 432
+    },
+    "posix/w1_A_external.sh": {
+      "sha256": "e04e18ac54caf204c8859a6e0d3959a082be565560dc50adde3ad90de4a8ef70",
+      "lines": 28,
+      "bytes": 1600
+    },
+    "posix/w1_B_builtin.sh": {
+      "sha256": "8e128af83e02d17155421f0aefeeab8a2bdcf4176001252c58fb0eca6918b42d",
+      "lines": 38,
+      "bytes": 1616
+    },
+    "posix/w1_C_concurrent.sh": {
+      "sha256": "6a550d3d30d5b00f1ca58457eceb2f12c8ed22229ff42d5938e80a015801c570",
+      "lines": 29,
+      "bytes": 1589
+    },
+    "posix/w1_D_trapped.sh": {
+      "sha256": "8f6a345086edc546c63137df41a4cd1a321b45b135f7733e37e4e9cf450fb07b",
+      "lines": 55,
+      "bytes": 2292
+    },
+    "posix/w2_A_external.sh": {
+      "sha256": "560671334c31b97020650ca72a57ee901fb77fa78da95615751dd6cffc0b0452",
+      "lines": 31,
+      "bytes": 1447
+    },
+    "posix/w2_B_builtin.sh": {
+      "sha256": "81a1710a88078bb8e5c57900985276b97c53a52a349ff094e5bd1866666d4072",
+      "lines": 46,
+      "bytes": 1631
+    },
+    "posix/w2_C_concurrent.sh": {
+      "sha256": "c5da554725f9b6e4d89864efcec27fa254b39006a34cdf9cd062bb1a64a2de3a",
+      "lines": 38,
+      "bytes": 1644
+    },
+    "posix/w2_D_trapped.sh": {
+      "sha256": "999839f6389702559f9dfbae793d598f4ff7c31a61b6e4a65d306a7b6edcccd3",
+      "lines": 67,
+      "bytes": 2498
+    }
+  },
+  "harness_sha256": "3d5a9750589b90ff9361dc7f155441e36a006c22c36f94a431cf28f3494ccf5b",
+  "launcher_source_sha256": "36d9cb8c06bdd327370b2eb840bb12705a1aabce35c6bbb40262fc41de0ed872",
+  "gcc": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0"
+}

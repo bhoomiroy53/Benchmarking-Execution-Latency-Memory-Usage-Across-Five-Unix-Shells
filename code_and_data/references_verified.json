@@ -1,0 +1,523 @@
+[
+ {
+  "authors": [
+   "Davis IJ",
+   "Holt RC",
+   "Mraz R"
+  ],
+  "title": "Fact extraction from bash in support of script migration",
+  "container": "2014 Software Evolution Week - IEEE Conference on Software Maintenance, Reengineering, and Reverse Engineering (CSMR-WCRE)",
+  "year": 2014,
+  "volume": null,
+  "pages": "363-366",
+  "doi": "10.1109/csmr-wcre.2014.6747195",
+  "type": "proceedings-article",
+  "topic": 1,
+  "summary": "Presents an open-source fact extractor that determines the dynamic usage of every variable in arbitrary bash scripts and reports script errors, as a first step toward migrating industrial bash scripts to other scripting languages.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Tonon A",
+   "Caglayan B",
+   "Wang M",
+   "Hu P",
+   "Shen F",
+   "Zhang P"
+  ],
+  "title": "Shrec: a SRE behaviour knowledge graph model for shell command recommendations",
+  "container": "2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+  "year": 2024,
+  "volume": null,
+  "pages": "406-416",
+  "doi": "10.1109/saner60148.2024.00048",
+  "type": "proceedings-article",
+  "topic": 1,
+  "summary": "Proposes SHREC, a knowledge-graph model mined from site reliability engineers' historical shell operations to recommend shell commands, and reports on an empirical study with real shell commands executed in the authors' company that it improves operation efficiency.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Miller BP",
+   "Zhang M",
+   "Heymann ER"
+  ],
+  "title": "The relevance of classic fuzz testing: have we solved this one?",
+  "container": "IEEE Transactions on Software Engineering",
+  "year": 2022,
+  "volume": "48",
+  "pages": "2028-2039",
+  "doi": "10.1109/tse.2020.3047766",
+  "type": "journal-article",
+  "topic": 1,
+  "summary": "Re-applies classic random fuzz testing to Unix command-line utilities on Linux, FreeBSD and macOS, finding that 9 of 74, 15 of 78 and 12 of 76 utilities crashed or hung, with failure causes including unchecked return codes and pointer/array errors.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Vicente E",
+   "Matias R",
+   "Borges L",
+   "Macêdo A"
+  ],
+  "title": "Evaluation of compound system calls in the Linux kernel",
+  "container": "2011 Brazilian Symposium on Computing System Engineering",
+  "year": 2011,
+  "volume": null,
+  "pages": "164-169",
+  "doi": "10.1109/sbesc.2011.20",
+  "type": "proceedings-article",
+  "topic": 2,
+  "summary": "Implements three compound system calls in Linux and shows, on one to eight cores in physical and virtual machines with ANOVA and Tukey tests, execution-time reductions of up to 58 percent versus conventional system calls, with the largest gains in the non-virtualized environment.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Weaver VM",
+   "McKee SA"
+  ],
+  "title": "Can hardware performance counters be trusted?",
+  "container": "2008 IEEE International Symposium on Workload Characterization",
+  "year": 2008,
+  "volume": null,
+  "pages": "141-150",
+  "doi": "10.1109/iiswc.2008.4636099",
+  "type": "proceedings-article",
+  "topic": 3,
+  "summary": "Measures retired-instruction counts for SPEC CPU 2000/2006 on nine x86 implementations and finds a coefficient of variation of up to 1.07% without special preparation, reducible below 0.002% by minor changes to the experimental setup.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "De P",
+   "Kothari R",
+   "Mann V"
+  ],
+  "title": "Identifying sources of operating system jitter through fine-grained kernel instrumentation",
+  "container": "2007 IEEE International Conference on Cluster Computing",
+  "year": 2007,
+  "volume": null,
+  "pages": "331-340",
+  "doi": "10.1109/clustr.2007.4629247",
+  "type": "proceedings-article",
+  "topic": 3,
+  "summary": "Presents a tool that attributes latencies seen by a user-level micro-benchmark to Linux daemons and interrupts via kernel instrumentation, finding that 63% of OS jitter comes from timer interrupts and much of the rest is easily eliminated.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Ferreira KB",
+   "Bridges P",
+   "Brightwell R"
+  ],
+  "title": "Characterizing application sensitivity to OS interference using kernel-level noise injection",
+  "container": "2008 SC - International Conference for High Performance Computing, Networking, Storage and Analysis",
+  "year": 2008,
+  "volume": null,
+  "pages": "1-12",
+  "doi": "10.1109/sc.2008.5219920",
+  "type": "proceedings-article",
+  "topic": 3,
+  "summary": "Uses kernel-level noise injection in the Catamount lightweight kernel to show that the impact of OS noise depends on its frequency and duration and on scale, e.g., 2.5% net noise at 10,000 nodes can cause no impact or more than a 20x slowdown.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Papadopoulos AV",
+   "Versluis L",
+   "Bauer A",
+   "Herbst N",
+   "von Kistowski J",
+   "Ali-Eldin A",
+   "Abad CL",
+   "Amaral JN",
+   "Tuma P",
+   "Iosup A"
+  ],
+  "title": "Methodological principles for reproducible performance evaluation in cloud computing",
+  "container": "IEEE Transactions on Software Engineering",
+  "year": 2021,
+  "volume": "47",
+  "pages": "1528-1543",
+  "doi": "10.1109/tse.2019.2927908",
+  "type": "journal-article",
+  "topic": 3,
+  "summary": "Proposes eight methodological principles for measuring and reporting cloud performance and, through a systematic review of 2012-2017 literature, finds that few published studies follow them.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Iosup A",
+   "Yigitbasi N",
+   "Epema D"
+  ],
+  "title": "On the performance variability of production cloud services",
+  "container": "2011 11th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing",
+  "year": 2011,
+  "volume": null,
+  "pages": "104-113",
+  "doi": "10.1109/ccgrid.2011.22",
+  "type": "proceedings-article",
+  "topic": 3,
+  "summary": "Analyzes long-term performance traces of Amazon Web Services and Google App Engine, finding yearly and daily patterns in about half of the services, and shows via trace-based simulation that the impact of performance variability depends on the application.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Ismail M",
+   "Suh GE"
+  ],
+  "title": "Quantitative overhead analysis for Python",
+  "container": "2018 IEEE International Symposium on Workload Characterization (IISWC)",
+  "year": 2018,
+  "volume": null,
+  "pages": "36-47",
+  "doi": "10.1109/iiswc.2018.8573512",
+  "type": "proceedings-article",
+  "topic": 4,
+  "summary": "Quantifies the sources of overhead in the Python interpreter with and without JIT compilation, identifying C function calls as a major new source of overhead and showing that JIT performance depends heavily on the cache hierarchy and memory system.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Prechelt L"
+  ],
+  "title": "An empirical comparison of seven programming languages",
+  "container": "Computer",
+  "year": 2000,
+  "volume": "33",
+  "pages": "23-29",
+  "doi": "10.1109/2.876288",
+  "type": "journal-article",
+  "topic": 4,
+  "summary": "Compares 80 implementations of the same program in C, C++, Java, Perl, Python, Rexx and Tcl on program length, programming effort, runtime efficiency, memory consumption and reliability.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Southern G",
+   "Renau J"
+  ],
+  "title": "Overhead of deoptimization checks in the V8 javascript engine",
+  "container": "2016 IEEE International Symposium on Workload Characterization (IISWC)",
+  "year": 2016,
+  "volume": null,
+  "pages": "1-10",
+  "doi": "10.1109/iiswc.2016.7581268",
+  "type": "proceedings-article",
+  "topic": 4,
+  "summary": "Analyzes deoptimization checks in the V8 JavaScript JIT on the Octane benchmarks, finding they account on average for over 6.2% of dynamic instructions while removing them yields 2.2% to 4.6% speedups depending on the CPU microarchitecture.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Felter W",
+   "Ferreira A",
+   "Rajamony R",
+   "Rubio J"
+  ],
+  "title": "An updated performance comparison of virtual machines and Linux containers",
+  "container": "2015 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+  "year": 2015,
+  "volume": null,
+  "pages": "171-172",
+  "doi": "10.1109/ispass.2015.7095802",
+  "type": "proceedings-article",
+  "topic": 5,
+  "summary": "Compares KVM virtual machines with Docker containers and finds that containers deliver equal or better performance than VMs in almost all cases, while both need tuning for I/O-intensive workloads.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Morabito R",
+   "Kjallman J",
+   "Komu M"
+  ],
+  "title": "Hypervisors vs. lightweight virtualization: a performance comparison",
+  "container": "2015 IEEE International Conference on Cloud Engineering",
+  "year": 2015,
+  "volume": null,
+  "pages": "386-393",
+  "doi": "10.1109/ic2e.2015.74",
+  "type": "proceedings-article",
+  "topic": 5,
+  "summary": "Benchmarks hypervisor-based virtualization against lightweight container solutions for processing, storage, memory and network, finding containers generally perform better though the difference is often relatively small.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Xavier MG",
+   "Neves MV",
+   "Rossi FD",
+   "Ferreto TC",
+   "Lange T",
+   "De Rose CAF"
+  ],
+  "title": "Performance evaluation of container-based virtualization for high performance computing environments",
+  "container": "2013 21st Euromicro International Conference on Parallel, Distributed, and Network-Based Processing",
+  "year": 2013,
+  "volume": null,
+  "pages": "233-240",
+  "doi": "10.1109/pdp.2013.41",
+  "type": "proceedings-article",
+  "topic": 5,
+  "summary": "Evaluates Linux VServer, OpenVZ and LXC containers against the Xen hypervisor for HPC workloads, reporting near-native container performance and examining the trade-off between performance and isolation.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Kochberger P",
+   "Tauber A",
+   "Schrittwieser S"
+  ],
+  "title": "Assessment of the transparency of the Windows Subsystem for Linux (WSL)",
+  "container": "2019 International Conference on Software Security and Assurance (ICSSA)",
+  "year": 2019,
+  "volume": null,
+  "pages": "60-69",
+  "doi": "10.1109/icssa48308.2019.00015",
+  "type": "proceedings-article",
+  "topic": 5,
+  "summary": "Shows that an application can detect whether it runs inside the Windows Subsystem for Linux rather than Ubuntu through environmental artifacts, unique features and non-implemented system calls.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Koopman P",
+   "DeVale J"
+  ],
+  "title": "The exception handling effectiveness of POSIX operating systems",
+  "container": "IEEE Transactions on Software Engineering",
+  "year": 2000,
+  "volume": "26",
+  "pages": "837-848",
+  "doi": "10.1109/32.877845",
+  "type": "journal-article",
+  "topic": 6,
+  "summary": "Uses the Ballista tool to test exceptional parameter values on up to 233 POSIX functions and system calls across 15 operating systems, finding that only 55% to 76% of exceptional tests produced error codes and 6% to 19% gave no indication of error.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Marinescu PD",
+   "Candea G"
+  ],
+  "title": "LFI: a practical and general library-level fault injector",
+  "container": "2009 IEEE/IFIP International Conference on Dependable Systems & Networks",
+  "year": 2009,
+  "volume": null,
+  "pages": "379-388",
+  "doi": "10.1109/dsn.2009.5270313",
+  "type": "proceedings-article",
+  "topic": 6,
+  "summary": "Introduces LFI, a tool that automatically profiles library fault behaviors via static analysis of binaries and injects faults at the boundary between shared libraries and applications without needing library source code.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Kao WI",
+   "Iyer RK",
+   "Tang D"
+  ],
+  "title": "FINE: a fault injection and monitoring environment for tracing the UNIX system behavior under faults",
+  "container": "IEEE Transactions on Software Engineering",
+  "year": 1993,
+  "volume": "19",
+  "pages": "1105-1118",
+  "doi": "10.1109/32.256857",
+  "type": "journal-article",
+  "topic": 6,
+  "summary": "Presents FINE, which injects hardware-induced and software faults into the SunOS UNIX kernel and traces fault propagation, finding that memory and software faults usually have very long latency while bus and CPU faults tend to crash the system immediately.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Duraes JA",
+   "Madeira HS"
+  ],
+  "title": "Emulation of software faults: a field data study and a practical approach",
+  "container": "IEEE Transactions on Software Engineering",
+  "year": 2006,
+  "volume": "32",
+  "pages": "849-867",
+  "doi": "10.1109/tse.2006.113",
+  "type": "journal-article",
+  "topic": 6,
+  "summary": "Analyzes a large collection of real software faults and proposes G-SWFIT, a source-code-independent software fault injection technique based on emulation operators applied at machine-code level.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Bai JJ",
+   "Fu ZX",
+   "Xie KT",
+   "Jiang ZM"
+  ],
+  "title": "Testing error handling code with software fault injection and error-coverage-guided fuzzing",
+  "container": "IEEE Transactions on Dependable and Secure Computing",
+  "year": 2024,
+  "volume": "21",
+  "pages": "1724-1739",
+  "doi": "10.1109/tdsc.2023.3288876",
+  "type": "journal-article",
+  "topic": 6,
+  "summary": "Proposes EH-Fuzz, a context-sensitive software-fault-injection fuzzer guided by an error-coverage metric, which found 45 new bugs in error handling code of 9 user-level programs and 6 kernel modules.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Rahman A",
+   "Parnin C",
+   "Williams L"
+  ],
+  "title": "The seven sins: security smells in infrastructure as code scripts",
+  "container": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+  "year": 2019,
+  "volume": null,
+  "pages": "164-175",
+  "doi": "10.1109/icse.2019.00033",
+  "type": "proceedings-article",
+  "topic": 7,
+  "summary": "Identifies seven security smells in infrastructure-as-code scripts and, with the SLIC static analyzer, finds 21,201 smell occurrences in 15,232 scripts from 293 open-source repositories, including 1,326 hard-coded passwords.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Rahman A",
+   "Williams L"
+  ],
+  "title": "Characterizing defective configuration scripts used for continuous deployment",
+  "container": "2018 IEEE 11th International Conference on Software Testing, Verification and Validation (ICST)",
+  "year": 2018,
+  "volume": null,
+  "pages": "34-45",
+  "doi": "10.1109/icst.2018.00014",
+  "type": "proceedings-article",
+  "topic": 7,
+  "summary": "Uses text mining of infrastructure-as-code scripts from Mozilla, OpenStack and Wikimedia to find that filesystem operations, infrastructure provisioning and user-account management characterize defective scripts, and builds defect prediction models from these features.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Wu Y",
+   "Zhang Y",
+   "Wang T",
+   "Wang H"
+  ],
+  "title": "Characterizing the occurrence of Dockerfile smells in open-source software: an empirical study",
+  "container": "IEEE Access",
+  "year": 2020,
+  "volume": "8",
+  "pages": "34127-34139",
+  "doi": "10.1109/access.2020.2973750",
+  "type": "journal-article",
+  "topic": 7,
+  "summary": "Studies Dockerfile smells in 6,334 open-source projects and finds that smells are very common, co-occur, and are statistically related to project characteristics.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Huang J",
+   "Ling CX"
+  ],
+  "title": "Using AUC and accuracy in evaluating learning algorithms",
+  "container": "IEEE Transactions on Knowledge and Data Engineering",
+  "year": 2005,
+  "volume": "17",
+  "pages": "299-310",
+  "doi": "10.1109/tkde.2005.50",
+  "type": "journal-article",
+  "topic": 8,
+  "summary": "Establishes formal criteria for comparing evaluation measures and shows theoretically and empirically that AUC is a better measure than accuracy for evaluating learning algorithms.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Lessmann S",
+   "Baesens B",
+   "Mues C",
+   "Pietsch S"
+  ],
+  "title": "Benchmarking classification models for software defect prediction: a proposed framework and novel findings",
+  "container": "IEEE Transactions on Software Engineering",
+  "year": 2008,
+  "volume": "34",
+  "pages": "485-496",
+  "doi": "10.1109/tse.2008.35",
+  "type": "journal-article",
+  "topic": 8,
+  "summary": "Proposes a framework for comparative defect-prediction experiments using AUC and statistical testing and, comparing 22 classifiers on 10 NASA data sets, detects no significant differences among the top 17 classifiers.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Gerofi B",
+   "Hori A",
+   "Ishikawa Y"
+  ],
+  "title": "clone_n(): Parallel Thread Creation for Upcoming Many-Core Architectures",
+  "container": "2012 IEEE International Conference on Cluster Computing",
+  "year": 2012,
+  "volume": null,
+  "pages": "592-596",
+  "doi": "10.1109/cluster.2012.85",
+  "type": "proceedings-article",
+  "topic": 2,
+  "summary": "Proposes a clone_n system call that creates many threads in one call and reports up to 6.9 times faster thread creation than sequential creation on an Intel MIC many-core platform, noting that standard OS interfaces create one thread at a time.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Condurache C",
+   "Mogosanu L",
+   "Carabas M",
+   "Gheorghe L",
+   "Tapus N"
+  ],
+  "title": "Performance Evaluation of In-kernel System Calls",
+  "container": "2015 4th Eastern European Regional Conference on the Engineering of Computer Based Systems",
+  "year": 2015,
+  "volume": null,
+  "pages": "130-133",
+  "doi": "10.1109/ecbs-eerc.2015.29",
+  "type": "proceedings-article",
+  "topic": 2,
+  "summary": "Evaluates the overhead of invoking system calls from kernel space on ARMv7 and x86-64, noting that conventional system calls involve a user-to-kernel mode switch whose cost must be taken into account.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Weaver VM",
+   "Terpstra D",
+   "Moore S"
+  ],
+  "title": "Non-determinism and overcount on modern hardware performance counter implementations",
+  "container": "2013 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+  "year": 2013,
+  "volume": null,
+  "pages": "215-224",
+  "doi": "10.1109/ispass.2013.6557172",
+  "type": "proceedings-article",
+  "topic": 3,
+  "summary": "Shows across eleven x86-64 implementations that nominally deterministic hardware counter events such as retired instructions exhibit run-to-run variation and overcount even in strictly controlled environments.",
+  "crossref_verified": true
+ },
+ {
+  "authors": [
+   "Li Z",
+   "Kihl M",
+   "Lu Q",
+   "Andersson JA"
+  ],
+  "title": "Performance Overhead Comparison between Hypervisor and Container Based Virtualization",
+  "container": "2017 IEEE 31st International Conference on Advanced Information Networking and Applications (AINA)",
+  "year": 2017,
+  "volume": null,
+  "pages": "955-962",
+  "doi": "10.1109/aina.2017.79",
+  "type": "proceedings-article",
+  "topic": 5,
+  "summary": "Compares a standalone Docker container with a standalone virtual machine against a physical baseline and finds that virtualization overhead varies feature by feature and job by job.",
+  "crossref_verified": true
+ }
+]
